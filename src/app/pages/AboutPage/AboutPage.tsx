@@ -1,8 +1,10 @@
 import { FC } from "react";
 
+import AboutMe from "@/app/widgets/AboutMe/AboutMe";
+
 const AboutPage: FC = () => {
     return ( 
-        <div>About Page</div>
+        <AboutMe/>
      );
 };
  

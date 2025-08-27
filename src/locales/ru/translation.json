@@ -1,0 +1,181 @@
+{
+    "skills": {
+    "title": ":: HARDSKILLS.LOG",
+    "groups": [
+      {
+        "category": "TypeScript",
+        "skills": [
+          { "name": "Типизация пропсов и стора", "level": 70 },
+          { "name": "Дженерики и extends", "level": 60 },
+          { "name": "Utility types", "level": 65, "comment": "Partial, Omit, Record" },
+          { "name": "Type narrowing", "level": 60 }
+        ]
+      },
+      {
+        "category": "React",
+        "skills": [
+          { "name": "Хуки", "level": 80 },
+          { "name": "Композиция компонентов", "level": 85 },
+          { "name": "Оптимизация", "level": 65, "comment": "memo, useMemo, lazy" },
+          { "name": "Контекст", "level": 70 },
+          { "name": "React Router DOM", "level": 85, "comment": "v6, nested routes" }
+        ]
+      },
+              
+      {
+        "category": "CSS / SCSS / UI",
+        "skills": [
+          { "name": "SCSS структуры", "level": 90, "comment": "BEM, nesting" },
+          { "name": "CSS-модули / Tailwind", "level": 80 },
+          { "name": "Анимации и transitions", "level": 75 },
+          { "name": "UI-библиотеки", "level": 70, "comment": "shadcn/ui, MUI" }
+        ]
+      },
+      {
+        "category": "Интеграции и взаимодействие",
+        "skills": [
+          { "name": "REST API", "level": 90, "comment": "Axios / fetch" },
+          { "name": "React Hook Form", "level": 85 },
+          { "name": "Валидация", "level": 75, "comment": "zod, yup" }
+        ]
+      }
+    ]
+  },
+    "softSkills": {
+      "title": ":: SOFTSKILLS.LOG",
+      "groups": [
+        {
+          "category": "Коммуникация",
+          "skills": [
+            { "name": "Устное общение", "level": 80, "comment": "Могу объяснить так, что сама пойму" },
+            { "name": "Письменное общение", "level": 60, "comment": "По делу" },
+            { "name": "Обратная связь", "level": 70 }
+          ]
+        },
+        {
+          "category": "Командная работа",
+          "skills": [
+            { "name": "Сотрудничество", "level": 80 },
+            { "name": "Уважение к ролям", "level": 65 },
+            { "name": "Гибкость", "level": 70, "comment": "В пределах адекватного" }
+          ]
+        },
+        {
+          "category": "Самоорганизация",
+          "skills": [
+            { "name": "Тайм-менеджмент", "level": 65 },
+            { "name": "Ответственность", "level": 100, "comment": "Порой слишком" },
+            { "name": "Инициативность", "level": 70, "comment": "Надеюсь, приветствуется" }
+          ]
+        },
+        {
+          "category": "Решение проблем",
+          "skills": [
+            { "name": "Критическое мышление", "level": 75 },
+            { "name": "Поиск решений", "level": 80, "comment": "Не ищу виноватых — ищу выход" },
+            { "name": "Обучаемость", "level": 95, "comment": "Учусь быстрее, чем успеваю забывать" }
+          ]
+        }
+      ]
+    },
+    "projects": {
+        "title": ":: PROJECTS.LOG",
+        "ndaNote": "Проект под NDA",
+        "github": "→ GitHub Repo",
+        "list": [
+          {
+            "title": "EvroDOK",
+            "stack": "React, Typescript, Ant design, React-router, emailJS, Yup, Captcha, Formik, lazy, SCSS, Prettier, ESLint, Vite, Vercel",
+            "description": [
+              "Настроила клиентский роутинг с react-router-dom",
+              "Реализация формы обратной связи с использованием emailJS и валидацией формы с помощью Yup и Formik",
+              "Реализовала защиту от спама с помощью капчи",
+              "Реализовала адаптивный UI с нуля, без использования UI-библиотек."
+            ]
+          },
+          {
+            "title": "Blog Platform open API",
+            "stack": "React, Typescript, Redux Toolkit, React-hook-form, Fetch API, CSS, Webpack",
+            "description": [
+              "Реализовала регистрацию, вход, редактирование профиля и выход через Redux Toolkit и RTK Thunk с хранением токена в localStorage",
+              "Добавила валидацию форм с использованием react-hook-form, включая проверки email, пароля и подтверждения пароля.",
+              "Cделала создание, редактирование, удаление и просмотр статей, с защитой операций авторизацией.",
+              "Обеспечила загрузку и отображение статей с пагинацией, обработку ошибок и спиннер загрузки."
+            ]
+          },
+          {
+            "title": "Star Wars API",
+            "stack": "React, JavaScript, React-router, CSS, REST API, Webpack",
+            "description": [
+              "Реализовала сервис для работы с двумя публичными API (akabab/starwars-api и swapi.info).",
+              "Настроила маршрутизацию через react-router с обработкой ошибок.",
+              "Создала страницы: персонажи, планеты, звездолёты — с подгрузкой и отображением данных и компонентами с детальной информацией.",
+              "Использовала классовые компоненты для управления состоянием и жизненным циклом.",
+              "Реализовала адаптивный UI с нуля"
+            ]
+          },
+          {
+            "title": "Movie DB open API",
+            "stack": "React, Ant design, CSS, JavaScript, TMDb API, date-fns, Fetch API",
+            "description": [
+              "Создала пользовательский интерфейс для поиска и оценки фильмов на основе TMDb API.",
+              "Реализовала кастомную логику обработки поиска с debounce, отрисовку карточек фильмов с fallback для изображений, визуализацию рейтингов и систему голосования в гостевой сессии.",
+              "Обработала возможные ошибки и состояния соединения (в том числе offline), обеспечив устойчивость приложения."
+            ]
+          },
+          {
+            "title": "Aviasales API",
+            "stack": "React, TypeScript, Redux Toolkit, SCSS-modules, date-fns, Ant design, REST API",
+            "description": [
+              "Реализовала приложение для поиска авиабилетов с фильтрацией и сортировкой.",
+              "Использовала API для загрузки билетов, Redux Toolkit для управления состоянием, фильтры по пересадкам, сортировка по цене, скорости и оптимальности",
+              "Реализация адаптивного UI"
+            ]
+          },
+          {
+            "title": "Метео Telegram App",
+            "nda": true,
+            "stack": "HTML, CSS, JavaScript, DOM API, Fetch API, Markdown (marked.js), Docker, Prettier, ESLint",
+            "description": [
+              "Разработала SPA-интерфейс на Vanilla JS (без фреймворков)",
+              "Имплементировала разделы: чат, заметки (с markdown-отображением), камера (захват, переключение, загрузка фото).",
+              "Настроила взаимодействие с API и динамическое обновление DOM и обработку ошибок.",
+              "Реализовала адаптивный UI с нуля, без использования UI-библиотек.",
+              "Развернула проект с использованием Docker.",
+              "Тестирование проекта с использованием Jest"
+            ]
+          },
+          {
+            "title": "Ветеринарная клиника (NDA)",
+            "nda": true,
+            "stack": "React, Typescript, Fetch API, Ant design, JWT аутентификация, React-router, Redux Toolkit / RTK-Query, react-hook-form, localStorage / sessionStorage, Jest, SCSS, Prettier, ESLint, Husky",
+            "description": [
+              "Разработала несколько страниц React: статьи, список клиентов на админ странице, админ-панель, питомцы и переход к детальному описанию питомца на клиентской странице.",
+              "Настройка маршрутизации между страницами.",
+              "Конфигурация RTK Query для запросов: получение списка статей, питомцев, их ветеринарных карт, приёмов.",
+              "Реализовала авторизацию и регистрацию пользователей через формы с валидацией",
+              "Настроила отправку данных на backend через RTK Query, сохранила токен и роль пользователя в хранилище",
+              "Настроила роутинг по ролям и обработку ошибок при логине",
+              "Работала с Ant design, SCSS, поддержка адаптивного дизайна",
+              "Тестировала с использованием Jest и React Testing Library"
+            ]
+          }
+        ]
+      },
+      "contacts": {
+          "telegramComment": "предпочтительный способ",
+          "emailComment": "для тех, кто любит формальность",
+          "githubComment": "хардкор"
+        },
+    "mainSection": {
+        "name": "Анастасия",
+        "link": "обычный формат"
+    },
+    "navMenu": {
+      "main": "Главная",
+      "skills": "Хард скиллы",
+      "soft-skills": "Софт скиллы",
+      "projects": "Проекты",
+      "contacts": "Контакты"
+    }
+}

@@ -1,0 +1,11 @@
+import tg from './images/tg.svg';
+import ig from './images/ig.svg';
+import fb from './images/fb.svg';
+import linkedin from './images/linkedin.svg';
+import github from './images/github.svg';
+import glitch1 from './images/glitch1.png';
+import glitch2 from './images/glitch2.png';
+import glitch3 from './images/glitch3.png';
+import glitch4 from './images/glitch4.png';
+import grain from './images/grain.jpg';
+export { tg, ig, fb, linkedin, github, glitch1, glitch2, glitch3, glitch4, grain };

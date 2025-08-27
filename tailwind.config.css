@@ -1,0 +1,37 @@
+.glow {
+    text-shadow:
+      0 0 5px #22c55e,
+      0 0 10px #22c55e,
+      0 0 20px #22c55e;
+  }
+  
+  @keyframes glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(2px, -1px); }
+    60% { transform: translate(-1px, 1px); }
+    80% { transform: translate(1px, -2px); }
+    100% { transform: translate(0); }
+  }
+  
+  .text-glitch {
+    position: relative;
+    color: #fff;
+    animation: glitch 1.2s infinite;
+    text-shadow:
+      1px 0 red,
+      -1px 0 blue;
+  }
+  .glitch-on-hover:hover {
+    animation: glitchEffect 0.8s infinite;
+  }
+  
+  @keyframes glitchEffect {
+    0% { transform: translate(0); }
+    20% { transform: translate(-1px, 1px); }
+    40% { transform: translate(1px, -1px); }
+    60% { transform: translate(-2px, 2px); }
+    80% { transform: translate(2px, -1px); }
+    100% { transform: translate(0); }
+  }
+  

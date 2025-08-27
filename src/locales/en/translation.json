@@ -1,0 +1,190 @@
+{
+    "skills": {
+      "title": ":: HARDSKILLS.LOG",
+      "groups": [
+        {
+          "category": "TypeScript",
+          "skills": [
+            { "name": "Props and store typing", "level": 70 },
+            { "name": "Generics and extends", "level": 60 },
+            { "name": "Utility types", "level": 65, "comment": "Partial, Omit, Record" },
+            { "name": "Type narrowing", "level": 60 }
+          ]
+        },
+        {
+          "category": "React",
+          "skills": [
+            { "name": "Hooks", "level": 80 },
+            { "name": "Component composition", "level": 85 },
+            { "name": "Optimization", "level": 65, "comment": "memo, useMemo, lazy" },
+            { "name": "Context", "level": 70 },
+            { "name": "React Router DOM", "level": 85, "comment": "v6, nested routes" }
+          ]
+        },
+        {
+          "category": "Redux Toolkit",
+          "skills": [
+            { "name": "createSlice и createAsyncThunk", "level": 90 },
+            { "name": "Middleware и DevTools", "level": 80 },
+            { "name": "RTK Query", "level": 75 }
+          ]
+        },
+        {
+          "category": "CSS / SCSS / UI",
+          "skills": [
+            { "name": "SCSS Structures", "level": 90, "comment": "BEM, nesting" },
+            { "name": "CSS Modules / Tailwind", "level": 80 },
+            { "name": "Animations and Transitions", "level": 75 },
+            { "name": "UI Libraries", "level": 70, "comment": "shadcn/ui, MUI" }
+          ]
+        },
+        {
+          "category": "Integrations and Interaction",
+          "skills": [
+            { "name": "REST API", "level": 90, "comment": "Axios / fetch" },
+            { "name": "React Hook Form", "level": 85 },
+            { "name": "Validation", "level": 75, "comment": "zod, yup" }
+          ]
+        }
+
+      ]
+    },
+    "softSkills": {
+        "title": ":: SOFTSKILLS.LOG",
+        "groups": [
+          {
+            "category": "Communication",
+            "skills": [
+              { "name": "Verbal Communication", "level": 80, "comment": "Can explain so well I understand it myself" },
+              { "name": "Written Communication", "level": 60, "comment": "Straight to the point" },
+              { "name": "Feedback", "level": 70 }
+            ]
+          },
+          {
+            "category": "Teamwork",
+            "skills": [
+              { "name": "Collaboration", "level": 80 },
+              { "name": "Respect for roles", "level": 65 },
+              { "name": "Flexibility", "level": 70, "comment": "Within reason" }
+            ]
+          },
+          {
+            "category": "Self-organization",
+            "skills": [
+              { "name": "Time management", "level": 65 },
+              { "name": "Responsibility", "level": 100, "comment": "Sometimes too much" },
+              { "name": "Initiative", "level": 70, "comment": "Hopefully appreciated" }
+            ]
+          },
+          {
+            "category": "Problem-solving",
+            "skills": [
+              { "name": "Critical thinking", "level": 75 },
+              { "name": "Solution finding", "level": 80, "comment": "Don't blame — just solve" },
+              { "name": "Learnability", "level": 95, "comment": "I learn faster than I forget" }
+            ]
+          }
+        ]
+      },
+      "projects": {
+        "title": ":: PROJECTS.LOG",
+        "ndaNote": "NDA Project",
+        "github": "→ GitHub Repo",
+        "list": [
+          {
+            "title": "EvroDOK",
+            "stack": "React, Typescript, Ant design, React-router, emailJS, Yup, Captcha, Formik, lazy, SCSS, Prettier, ESLint, Vite, Vercel",
+            "description": [
+              "Set up client-side routing using react-router-dom",
+              "Implemented a contact form using emailJS with validation via Yup and Formik",
+              "Added spam protection with captcha",
+              "Built a fully responsive UI from scratch without using UI libraries"
+            ]
+          },
+          {
+            "title": "Blog Platform open API",
+            "stack": "React, Typescript, Redux Toolkit, React-hook-form, Fetch API, CSS, Webpack",
+            "description": [
+              "Implemented registration, login, profile editing, and logout using Redux Toolkit and RTK Thunk with token stored in localStorage",
+              "Added form validation using react-hook-form, including email, password, and password confirmation checks",
+              "Enabled creating, editing, deleting, and viewing articles with authorization protection",
+              "Implemented article loading with pagination, error handling, and loading spinner"
+            ]
+          },
+          {
+            "title": "Star Wars API",
+            "stack": "React, JavaScript, React-router, CSS, REST API, Webpack",
+            "description": [
+              "Built a service that interacts with two public APIs (akabab/starwars-api and swapi.info)",
+              "Configured routing with react-router and error handling",
+              "Created pages for characters, planets, and starships with detailed info components",
+              "Used class components for state and lifecycle management",
+              "Designed a fully responsive UI from scratch"
+            ]
+          },
+          {
+            "title": "Movie DB open API",
+            "stack": "React, Ant design, CSS, JavaScript, TMDb API, date-fns, Fetch API",
+            "description": [
+              "Developed a UI for searching and rating movies using the TMDb API",
+              "Implemented custom search logic with debounce, movie cards with fallback images, rating visualization, and guest session voting",
+              "Handled connection issues including offline states to ensure app resilience"
+            ]
+          },
+          {
+            "title": "Aviasales API",
+            "stack": "React, TypeScript, Redux Toolkit, SCSS-modules, date-fns, Ant design, REST API",
+            "description": [
+              "Created a flight search app with filtering and sorting functionality",
+              "Used API to load tickets, Redux Toolkit for state management, filters by number of stops, sorting by price, speed, and optimality",
+              "Implemented responsive UI"
+            ]
+          },
+          {
+            "title": "Meteo Telegram App",
+            "nda": true,
+            "stack": "HTML, CSS, JavaScript, DOM API, Fetch API, Markdown (marked.js), Docker, Prettier, ESLint",
+            "description": [
+              "Developed a SPA interface using Vanilla JS (without frameworks)",
+              "Implemented sections: chat, notes (with markdown rendering), camera (capture, switch, upload photo)",
+              "Configured API interaction, dynamic DOM updates, and error handling",
+              "Built a fully responsive UI from scratch, without UI libraries",
+              "Deployed the project using Docker",
+              "Tested the project with Jest"
+            ]
+          },
+          {
+            "title": "Veterinary Clinic (NDA)",
+            "nda": true,
+            "stack": "React, Typescript, Fetch API, Ant design, JWT authentication, React-router, Redux Toolkit / RTK-Query, react-hook-form, localStorage / sessionStorage, Jest, SCSS, Prettier, ESLint, Husky",
+            "description": [
+              "Developed multiple React pages: articles, client list in the admin page, admin panel, pets and detailed pet view on the client page",
+              "Set up routing between pages",
+              "Configured RTK Query for fetching articles, pets, medical records, appointments",
+              "Implemented user registration and login with validation",
+              "Handled data submission to backend via RTK Query, token and role storage in local/session storage",
+              "Implemented role-based routing and login error handling",
+              "Used Ant Design and SCSS, ensured responsive design",
+              "Tested components using Jest and React Testing Library"
+            ]
+          }
+        ]
+      },
+      "contacts": {
+        "telegramComment": "preferred way",
+        "emailComment": "for those who like it formal",
+        "githubComment": "hardcore"
+      },
+      "mainSection": {
+        "name": "Anastasia",
+        "link": "simple format"
+    },
+    "navMenu": {
+      "main": "Main",
+      "skills": "Hard skills",
+      "soft-skills": "Soft skills",
+      "projects": "Projects",
+      "contacts": "Contacts"
+    }
+  }
+  

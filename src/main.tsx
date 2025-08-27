@@ -1,11 +1,17 @@
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { RouterProvider } from 'react-router-dom';
 
-import { MainRoutes } from './app';
+import './i18n';
 
 import 'antd/dist/reset.css';
-// import './app/styles/index.css';
+import './app/assets/index.css';
+import './app/assets/normalize.css';
+import App from './app/App';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-    <RouterProvider router={MainRoutes} />
+const root = ReactDOM.createRoot(document.getElementById('root')!);
+
+root.render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
 );
