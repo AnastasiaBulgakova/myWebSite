@@ -9,6 +9,7 @@ type Project = {
   stack?: string;
   nda?: boolean;
   description?: string[];
+  link?: string;
 };
 
 const ProjectsGrid = forwardRef<HTMLDivElement, { isVisible: boolean }>(({ isVisible }, ref) => {
@@ -17,6 +18,7 @@ const ProjectsGrid = forwardRef<HTMLDivElement, { isVisible: boolean }>(({ isVis
   const sectionTitle = t("projects.title");
   const ndaNote = t("projects.ndaNote");
   const githubLabel = t("projects.github");
+  const linkLabel = t("projects.link");
 
   return (
     <section
@@ -73,6 +75,16 @@ const ProjectsGrid = forwardRef<HTMLDivElement, { isVisible: boolean }>(({ isVis
                   className="text-sm text-lime-300 underline hover:text-lime-100"
                 >
                   {githubLabel}
+                </a>
+              )}
+               {proj.link && (
+                <a
+                  href={proj.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-lime-300 underline hover:text-lime-100"
+                >
+                  {linkLabel}
                 </a>
               )}
             </motion.div>

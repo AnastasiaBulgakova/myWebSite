@@ -90,6 +90,7 @@
         "title": ":: PROJECTS.LOG",
         "ndaNote": "NDA Project",
         "github": "→ GitHub Repo",
+        "link": "→ Live Project",
         "list": [
           {
             "title": "EvroDOK",
@@ -99,7 +100,8 @@
               "Implemented a contact form using emailJS with validation via Yup and Formik",
               "Added spam protection with captcha",
               "Built a fully responsive UI from scratch without using UI libraries"
-            ]
+            ], 
+            "link": "https://evrodok.com"
           },
           {
             "title": "Blog Platform open API",
@@ -109,18 +111,22 @@
               "Added form validation using react-hook-form, including email, password, and password confirmation checks",
               "Enabled creating, editing, deleting, and viewing articles with authorization protection",
               "Implemented article loading with pagination, error handling, and loading spinner"
-            ]
+            ],
+            "link": "https://blog-ashy-pi-17.vercel.app",
+            "github": "https://github.com/AnastasiaBulgakova/blog"
           },
           {
             "title": "Star Wars API",
             "stack": "React, JavaScript, React-router, CSS, REST API, Webpack",
+            "github": "https://github.com/AnastasiaBulgakova/swapi",
             "description": [
               "Built a service that interacts with two public APIs (akabab/starwars-api and swapi.info)",
               "Configured routing with react-router and error handling",
               "Created pages for characters, planets, and starships with detailed info components",
               "Used class components for state and lifecycle management",
               "Designed a fully responsive UI from scratch"
-            ]
+            ],
+            "link": "https://swapi-sand.vercel.app"
           },
           {
             "title": "Movie DB open API",
@@ -138,7 +144,9 @@
               "Created a flight search app with filtering and sorting functionality",
               "Used API to load tickets, Redux Toolkit for state management, filters by number of stops, sorting by price, speed, and optimality",
               "Implemented responsive UI"
-            ]
+            ],
+            "link": "https://flights-iota.vercel.app",
+            "github": "https://github.com/AnastasiaBulgakova/flights"
           },
           {
             "title": "Meteo Telegram App",
@@ -152,6 +160,22 @@
               "Deployed the project using Docker",
               "Tested the project with Jest"
             ]
+          },
+          {
+            "title": "Legal Services Website",
+            "nda": false,
+            "stack": "React, Tailwind CSS, React Hook Form, Lucide React, EmailJS, Resend, Express, Core, Path, FS, JWT, Yandex Ads",
+            "description": [
+              "Designed and developed a responsive website for a legal services company",
+              "Built frontend using React and styled with Tailwind CSS",
+              "Implemented form handling with React Hook Form and integrated with EmailJS and Resend for email delivery",
+              "Created a backend using Express with file system operations (fs, path, core modules)",
+              "Configured secure form data handling and routing",
+              "Implemented JWT-based token management",
+              "Integrated Lucide React for iconography",
+              "Set up Yandex Ads for marketing and traffic acquisition"
+            ],
+            "link": "https://pravo-akm.ru"
           },
           {
             "title": "Veterinary Clinic (NDA)",
