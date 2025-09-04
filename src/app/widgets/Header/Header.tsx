@@ -10,16 +10,16 @@ const Header: FC = () => {
   };
 
   return (
-    <header className="bg-white h-12 fixed top-0 left-0 right-0 flex items-center justify-between px-4 border-b-2 border-neutral-200 z-50">
-     <div className="flex items-center gap-4">
-        <p className="font-mono text-[16px] font-medium text-neutral-900 whitespace-nowrap">
+    <header className="bg-white h-12 fixed top-0 left-0 right-0 flex items-center justify-between px-2 sm:px-4 border-b-2 border-neutral-200 z-50">
+     <div className="flex items-center gap-2 md:gap-4">
+        <p className="font-mono text-xs sm:text-base font-medium text-neutral-900 whitespace-nowrap">
             Anastasia Bulgakova
         </p>
 
-         <div className="flex gap-2">
+         <div className="flex gap-2 center items-center mr-3">
             <button
                 onClick={() => toggleLanguage('ru')}
-                className={`w-9 h-9 rounded-full border text-sm font-mono transition-all duration-200 ${
+                className={`w-6 h-6 sm:w-9 sm:h-9 text-xs sm:text-sm rounded-full border text-sm font-mono transition-all duration-200 ${
                 i18n.language === 'ru'
                     ? 'bg-black text-white border-black'
                     : 'bg-transparent text-black border-black hover:bg-black hover:text-white '
@@ -29,7 +29,7 @@ const Header: FC = () => {
             </button>
             <button
                 onClick={() => toggleLanguage('en')}
-                className={`w-9 h-9 rounded-full border text-sm font-mono transition-all duration-200 ${
+                className={`w-6 h-6 sm:w-9 sm:h-9 text-xs sm:text-sm rounded-full border text-sm font-mono transition-all duration-200 ${
                 i18n.language === 'en'
                     ? 'bg-black text-white border-black'
                     : 'bg-transparent text-black border-black hover:bg-black hover:text-white'
@@ -39,7 +39,7 @@ const Header: FC = () => {
             </button>
         </div>
         </div>
-        <nav className="flex flex-row items-center gap-3">
+        <nav className="flex flex-row items-center gap-2 sm:gap-3">
           <a href="https://www.instagram.com/ultranastialense/" target="_blank" rel="noopener noreferrer">
             <img src={ig} alt="Instagram" className="w-6 h-6" />
           </a>

@@ -82,6 +82,7 @@
         "title": ":: PROJECTS.LOG",
         "ndaNote": "Проект под NDA",
         "github": "→ GitHub Repo",
+        "linklabel": "→ Live Project",
         "list": [
           {
             "title": "EvroDOK",
@@ -126,7 +127,9 @@
               "Создала пользовательский интерфейс для поиска и оценки фильмов на основе TMDb API.",
               "Реализовала кастомную логику обработки поиска с debounce, отрисовку карточек фильмов с fallback для изображений, визуализацию рейтингов и систему голосования в гостевой сессии.",
               "Обработала возможные ошибки и состояния соединения (в том числе offline), обеспечив устойчивость приложения."
-            ]
+            ],
+            "github": "https://github.com/AnastasiaBulgakova/movie",
+            "link": "https://movie-three-lime.vercel.app/"
           },
           {
             "title": "Aviasales API",
@@ -138,19 +141,6 @@
             ],
             "link": "https://flights-iota.vercel.app",
             "github": "https://github.com/AnastasiaBulgakova/flights"
-          },
-          {
-            "title": "Метео Telegram App",
-            "nda": true,
-            "stack": "HTML, CSS, JavaScript, DOM API, Fetch API, Markdown (marked.js), Docker, Prettier, ESLint",
-            "description": [
-              "Разработала SPA-интерфейс на Vanilla JS (без фреймворков)",
-              "Имплементировала разделы: чат, заметки (с markdown-отображением), камера (захват, переключение, загрузка фото).",
-              "Настроила взаимодействие с API и динамическое обновление DOM и обработку ошибок.",
-              "Реализовала адаптивный UI с нуля, без использования UI-библиотек.",
-              "Развернула проект с использованием Docker.",
-              "Тестирование проекта с использованием Jest"
-            ]
           },
           {
             "title": "Сайт юридической компании",
@@ -168,6 +158,20 @@
             ],
             "link": "https://pravo-akm.ru"
           },
+          {
+            "title": "Метео Telegram App",
+            "nda": true,
+            "stack": "HTML, CSS, JavaScript, DOM API, Fetch API, Markdown (marked.js), Docker, Prettier, ESLint",
+            "description": [
+              "Разработала SPA-интерфейс на Vanilla JS (без фреймворков)",
+              "Имплементировала разделы: чат, заметки (с markdown-отображением), камера (захват, переключение, загрузка фото).",
+              "Настроила взаимодействие с API и динамическое обновление DOM и обработку ошибок.",
+              "Реализовала адаптивный UI с нуля, без использования UI-библиотек.",
+              "Развернула проект с использованием Docker.",
+              "Тестирование проекта с использованием Jest"
+            ]
+          },
+       
           {
             "title": "Ветеринарная клиника (NDA)",
             "nda": true,

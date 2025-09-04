@@ -62,7 +62,7 @@ const HeroGlitch: FC = () => {
         style={{ backgroundImage: `url(${bgImage})` }}
       />
       <div className="max-w-4xl text-center font-mono">
-        <h1 className="text-4xl sm:text-6xl text-glitch font-bold leading-tight">
+        <h1 className="text-3xl sm:text-6xl text-glitch font-bold leading-tight">
         {name}.
         <br/>
         Middle Frontend Developer

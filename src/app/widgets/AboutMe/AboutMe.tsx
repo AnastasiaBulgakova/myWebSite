@@ -1,11 +1,11 @@
 import { FC, useEffect, useRef, useState } from "react";
 
-import ProjectsArchive from "../ProjectsArchive/ProjectsArchive";
 import HeroGlitch from "../MainSections/MainSection";
 import SkillsSection from "../Skills/Skills";
 import SoftSkillsSection from "../SoftSkillsSection/SoftSkillsSection";
 import ContactSection from "../Contacts/Contacts";
 import SidebarMenu from "../NavMenu/NavMenu";
+import ProjectsGrid from "../ProjectsArchive/ProjectsArchive";
 
 const AboutMe: FC = () => {
 
@@ -34,7 +34,7 @@ const AboutMe: FC = () => {
             });
           },
           {
-            threshold: 0.15, 
+            threshold: 0.05, 
           }
         );
       
@@ -52,7 +52,7 @@ const AboutMe: FC = () => {
         <HeroGlitch />
         <SkillsSection ref={HardSkillDef} isVisible={isHardSkillVisible}/>
         <SoftSkillsSection ref={SoftSkillDef} isVisible={isSoftSkillVisible}/>
-        <ProjectsArchive ref={ProjectDef} isVisible={isProjectVisible}/>
+        <ProjectsGrid ref={ProjectDef} isVisible={isProjectVisible}/>
         <TransitionDivider/>
         <ContactSection ref={ContactDef} isVisible={isContactVisible}/>
         </>

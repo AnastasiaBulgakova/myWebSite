@@ -90,7 +90,7 @@
         "title": ":: PROJECTS.LOG",
         "ndaNote": "NDA Project",
         "github": "→ GitHub Repo",
-        "link": "→ Live Project",
+        "linklabel": "→ Live Project",
         "list": [
           {
             "title": "EvroDOK",
@@ -135,7 +135,9 @@
               "Developed a UI for searching and rating movies using the TMDb API",
               "Implemented custom search logic with debounce, movie cards with fallback images, rating visualization, and guest session voting",
               "Handled connection issues including offline states to ensure app resilience"
-            ]
+            ],
+            "github": "https://github.com/AnastasiaBulgakova/movie",
+            "link": "https://movie-three-lime.vercel.app/"
           },
           {
             "title": "Aviasales API",
@@ -147,19 +149,6 @@
             ],
             "link": "https://flights-iota.vercel.app",
             "github": "https://github.com/AnastasiaBulgakova/flights"
-          },
-          {
-            "title": "Meteo Telegram App",
-            "nda": true,
-            "stack": "HTML, CSS, JavaScript, DOM API, Fetch API, Markdown (marked.js), Docker, Prettier, ESLint",
-            "description": [
-              "Developed a SPA interface using Vanilla JS (without frameworks)",
-              "Implemented sections: chat, notes (with markdown rendering), camera (capture, switch, upload photo)",
-              "Configured API interaction, dynamic DOM updates, and error handling",
-              "Built a fully responsive UI from scratch, without UI libraries",
-              "Deployed the project using Docker",
-              "Tested the project with Jest"
-            ]
           },
           {
             "title": "Legal Services Website",
@@ -177,6 +166,20 @@
             ],
             "link": "https://pravo-akm.ru"
           },
+          {
+            "title": "Meteo Telegram App",
+            "nda": true,
+            "stack": "HTML, CSS, JavaScript, DOM API, Fetch API, Markdown (marked.js), Docker, Prettier, ESLint",
+            "description": [
+              "Developed a SPA interface using Vanilla JS (without frameworks)",
+              "Implemented sections: chat, notes (with markdown rendering), camera (capture, switch, upload photo)",
+              "Configured API interaction, dynamic DOM updates, and error handling",
+              "Built a fully responsive UI from scratch, without UI libraries",
+              "Deployed the project using Docker",
+              "Tested the project with Jest"
+            ]
+          },
+         
           {
             "title": "Veterinary Clinic (NDA)",
             "nda": true,

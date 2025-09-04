@@ -18,7 +18,7 @@ const ProjectsGrid = forwardRef<HTMLDivElement, { isVisible: boolean }>(({ isVis
   const sectionTitle = t("projects.title");
   const ndaNote = t("projects.ndaNote");
   const githubLabel = t("projects.github");
-  const linkLabel = t("projects.link");
+  const linkLabel = t("projects.linklabel");
 
   return (
     <section
@@ -45,7 +45,7 @@ const ProjectsGrid = forwardRef<HTMLDivElement, { isVisible: boolean }>(({ isVis
               whileHover={{ scale: 1.02, rotate: -0.2 }}
               transition={{ type: 'spring', stiffness: 300 }}
               className={`relative group bg-zinc-900/80 border border-lime-800 rounded-xl overflow-hidden p-4 shadow-lg ${
-                proj.nda ? 'opacity-70 blur-[0.5px] hover:blur-0 hover:opacity-100' : ''
+                proj.nda ? 'opacity-70 blur-[0.5px] hover:blur-0 ' : ''
               }`}
             >
               {proj.image && (
@@ -77,6 +77,7 @@ const ProjectsGrid = forwardRef<HTMLDivElement, { isVisible: boolean }>(({ isVis
                   {githubLabel}
                 </a>
               )}
+              <br/>
                {proj.link && (
                 <a
                   href={proj.link}
