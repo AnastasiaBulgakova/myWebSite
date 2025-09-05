@@ -51,7 +51,6 @@ const HeroGlitch: FC = () => {
   const { t } = useTranslation();
 
   const name = t("mainSection.name");
-  const link = t("mainSection.link");
 
   return (
     <section id='hero'
