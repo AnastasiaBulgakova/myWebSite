@@ -102,7 +102,7 @@ const ContactSection = forwardRef<HTMLDivElement, { isVisible: boolean }>(
 
           <div>
             <a
-              href="mailto:nb2u311@gmail.com"
+              href="mailto:nbulghakova@mail.ru"
               className="inline-block border border-lime-400 text-lime-300 px-4 py-2 rounded hover:bg-lime-400 hover:text-black transition-colors duration-200 mb-2"
             >
               Email
@@ -112,7 +112,7 @@ const ContactSection = forwardRef<HTMLDivElement, { isVisible: boolean }>(
 
           <div>
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/AnastasiaBulgakova"
               target="_blank"
               className="inline-block border border-lime-400 text-lime-300 px-4 py-2 rounded hover:bg-lime-400 hover:text-black transition-colors duration-200 mb-2"
             >
