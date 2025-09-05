@@ -71,12 +71,7 @@ const HeroGlitch: FC = () => {
           {`>`} welcome_to ~/anastasia.dev
           <span className="text-green-400">{cursorVisible ? '▌' : ' '}</span>
         </p>
-        <a
-          href="/classic"
-          className="inline-block mt-8 text-sm text-lime-400 underline hover:text-lime-200"
-        >
-          → {link}
-        </a>
+      
       </div>
     </section>
   );
